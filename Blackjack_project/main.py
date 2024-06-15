@@ -22,7 +22,7 @@ def compare(user_score, computer_score):
     if user_score == computer_score:
         return "Draw"
     elif computer_score == 0:
-        return "You lose, the opponent has a Blackjack"
+        return "You lose, the computer has a Blackjack"
     elif user_score == 0:
         return "You win, you have a Blackjack"
     elif computer_score > 21:
